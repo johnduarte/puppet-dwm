@@ -1,0 +1,19 @@
+{
+  "name": "johnduarte-dwm",
+  "version": "0.1.0",
+  "author": "johnduarte",
+  "summary": "Installs the dwm window manager",
+  "license": "Apache-2.0",
+  "source": "https://github.com/johnduarte/puppet-dwm",
+  "project_page": "https://github.com/johnduarte/puppet-dwm",
+  "issues_url": "https://github.com/johnduarte/puppet-dwm/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs-git","version_requirement":">= 0.0.1"}
+  ]
+}
+
