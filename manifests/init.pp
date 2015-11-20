@@ -65,7 +65,6 @@ class dwm (
   $dev_packages = $dwm::params::dev_packages,
 ) inherits dwm::params {
 
-  class { 'git': package_manage => $git_manage, }
   contain 'git'
   ensure_packages($dev_packages)
 
