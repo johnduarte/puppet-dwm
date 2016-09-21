@@ -9,7 +9,7 @@
   "issues_url": "https://github.com/johnduarte/puppet-dwm/issues",
   "operatingsystem_support": [
     {
-      "operatingsystem": "Debian",
+      "operatingsystem": "Debian"
     }
   ],
   "dependencies": [
