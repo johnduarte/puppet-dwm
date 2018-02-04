@@ -73,7 +73,7 @@ class dwm (
     ensure   => 'present',
     path     => "${source_root}/dwm",
     provider => 'git',
-    source   => 'git://suckless.org/dwm',
+    source   => 'https://git.suckless.org/dwm',
     revision => $version,
     require  =>  Class['git'],
   }
